@@ -9,7 +9,7 @@
 # =====================================================
 
 data <- read.csv(
-  "C:/Users/Karthik/Downloads/Nifty50_Investment_Priority_R_Analysis_Complete_50.csv")
+  "https://github.com/KarthikSadari/NIFTY-50-INVESTMENT-PRIORITY-ANALYSIS-USING-MULTIPLE-LINEAR-REGRESSION/blob/main/Nifty50_Investment_Priority_R_Analysis_Complete_50.csv")
 
 # View and inspect the dataset
 View(data)
