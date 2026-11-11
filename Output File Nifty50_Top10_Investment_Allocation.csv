@@ -1,0 +1,11 @@
+"Rank","Company","Sector","Return_1Y_Pct","Predicted_Return","ROE_pct","Sales_Growth_pct","Debt_Equity","Allocation_Percent","Allocation_Crore"
+1,"Jio Financial","Consumer Finance",8.39011925,35.9836462048714,1.19,122.66,0.32,15.95,1.6
+2,"Eternal","Online Services",25.04570384,33.7415307014464,0.38,143.65,0.18,14.96,1.5
+3,"Interglobe Aviat","Airlines",8.722133523,26.9688935894198,-30.15,12.66,22.73,11.96,1.2
+4,"BSE","Stock Exchanges & Ratings",60.16904506,22.249684684549,46.05,59.47,0,9.87,0.99
+5,"Bajaj Auto","Automobile",12.49386757,18.2590581846234,29.15,47.85,0.72,8.1,0.81
+6,"SBI","Financials",44.08323178,18.0089025963165,15.38,6.66,10.55,7.98,0.8
+7,"Axis Bank","Financials",39.28822698,17.6981954006817,13.12,9.47,7.73,7.85,0.78
+8,"Adani Ports","Infrastructure",32.46438262,17.6666757738116,16.38,22.62,0.65,7.83,0.78
+9,"Adani Enterp.","Infrastructure",-10.26362497,17.4830214147631,4.48,36.95,1.2,7.75,0.78
+10,"ICICI Bank","Financials",8.749229459,17.4752838236943,15.92,7.01,6.16,7.75,0.77
