@@ -9,7 +9,7 @@
 # =====================================================
 
 data <- read.csv(
-  "https://github.com/KarthikSadari/NIFTY-50-INVESTMENT-PRIORITY-ANALYSIS-USING-MULTIPLE-LINEAR-REGRESSION/blob/main/Nifty50_Investment_Priority_R_Analysis_Complete_50.csv")
+  "C:/Users/Karthik/Downloads/Nifty50_Investment_Priority_R_Analysis_Complete_50.csv")
 
 # View and inspect the dataset
 View(data)
@@ -96,27 +96,12 @@ cat(
 
 cat("\nInterpretation:\n")
 cat(
-  "The regression model is used as an investment screening tool.\n"
-)
-
-cat(
-  "The model-predicted returns are used to rank the Nifty 50 companies.\n"
-)
-
-cat(
-  "A low R-squared indicates that the selected financial variables\n"
-)
-
-cat(
-  "explain only a limited portion of the variation in 1-year returns.\n"
-)
-
-cat(
-  "Therefore, the model should not be treated as a standalone\n"
-)
-
-cat(
-  "forecasting or investment decision model.\n"
+  "The regression model is used as an investment screening tool.\n
+  The model-predicted returns are used to rank the Nifty 50 companies.\n
+  A low R-squared indicates that the selected financial variables\n
+  explain only a limited portion of the variation in 1-year returns.\n
+  Therefore, the model should not be treated as a standalone\n
+  forecasting or investment decision model.\n"
 )
 
 
@@ -163,9 +148,9 @@ top10 <- top10[1:10, ]
 
 # Display Top 10
 
-cat("\n========================================\n")
-cat("TOP 10 INVESTMENT-PRIORITY COMPANIES\n")
-cat("========================================\n")
+cat("\n========================================\n
+      TOP 10 INVESTMENT-PRIORITY COMPANIES\n
+      ========================================\n")
 
 print(top10)
 
@@ -186,24 +171,16 @@ print(top10)
 # a clear managerial investment-screening decision.
 
 
-cat("\n========================================\n")
-cat("MODEL-BASED INVESTMENT DECISION\n")
-cat("========================================\n")
+cat("\n========================================\n
+MODEL-BASED INVESTMENT DECISION\n
+========================================\n")
 
 cat(
-  "The Top 10 companies are selected based on\n"
-)
+  "The Top 10 companies are selected based on\n
 
-cat(
-  "their model-predicted 1-year returns.\n"
-)
-
-cat(
-  "They represent the investment-priority group\n"
-)
-
-cat(
-  "for further managerial evaluation.\n"
+  their model-predicted 1-year returns.\n
+They represent the investment-priority group\n
+  for further managerial evaluation.\n"
 )
 
 
@@ -255,19 +232,16 @@ cat(
 )
 
 cat(
-  "\nNote: The allocation is illustrative and\n"
-)
+  "\nNote: The allocation is illustrative and\n
 
-cat(
-  "proportional to model-predicted returns.\n"
-)
 
-cat(
-  "It is not an optimized portfolio or a guarantee\n"
-)
 
-cat(
-  "of future investment returns.\n"
+    proportional to model-predicted returns.\n
+
+
+    It is not an optimized portfolio or a guarantee\n
+
+    of future investment returns.\n"
 )
 
 
@@ -314,26 +288,19 @@ cat(
 )
 
 cat(
-  "mechanism for identifying investment-priority companies.\n"
+  "mechanism for identifying investment-priority companies.\n
+
+    The Top 10 companies should be subjected to further\n
+
+    due diligence before actual investment.\n
+
+    Additional factors such as valuation, liquidity,\n
+    
+    sector concentration, market conditions and risk\n
+    
+    should be considered before deploying the ₹10 crore.\n"
+    
 )
 
-cat(
-  "The Top 10 companies should be subjected to further\n"
-)
 
-cat(
-  "due diligence before actual investment.\n"
-)
-
-cat(
-  "Additional factors such as valuation, liquidity,\n"
-)
-
-cat(
-  "sector concentration, market conditions and risk\n"
-)
-
-cat(
-  "should be considered before deploying the ₹10 crore.\n"
-)
 
